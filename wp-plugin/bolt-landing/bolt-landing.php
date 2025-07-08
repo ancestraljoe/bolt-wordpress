@@ -1,4 +1,7 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
 /**
  * Plugin Name: Bolt Landing
  * Description: Embeds the Bolt landing page using a shortcode.
