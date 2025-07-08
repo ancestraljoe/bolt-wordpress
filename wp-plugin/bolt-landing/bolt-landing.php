@@ -16,13 +16,13 @@ function bolt_landing_shortcode() {
         'bolt-landing-style',
         $plugin_url . 'dist/assets/index-DHx0o1cY.css',
         array(),
-        null
+        filemtime( plugin_dir_path( __FILE__ ) . 'dist/assets/index-DHx0o1cY.css' )
     );
     wp_enqueue_script(
         'bolt-landing-script',
         $plugin_url . 'dist/assets/index-BC5gZysM.js',
         array(),
-        null,
+        filemtime( plugin_dir_path( __FILE__ ) . 'dist/assets/index-BC5gZysM.js' ),
         true
     );
 
