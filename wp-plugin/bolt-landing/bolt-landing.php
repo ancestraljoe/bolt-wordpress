@@ -4,6 +4,7 @@
  * Description: Embeds the Bolt landing page using a shortcode.
  * Version: 1.0.0
  * Author: Bolt
+ * Text Domain: bolt-landing
  */
 
 // Register shortcode.
