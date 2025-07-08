@@ -1,1 +1,1 @@
-# bolt-wordpress
+bolt
